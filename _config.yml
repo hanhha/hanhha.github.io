@@ -230,6 +230,7 @@ compress_html:
   ignore:
     envs: development
 
+include: ["_pages", "_posts"]
 
 # Defaults
 defaults:
