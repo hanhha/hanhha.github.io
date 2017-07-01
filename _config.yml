@@ -235,7 +235,7 @@ collections:
       output: true
       permalink: /:collection/:path/
 
-include: ["_pages", "_posts", "_blogging"]
+#include: ["_pages", "_posts", "_blogging"]
 
 # Defaults
 defaults:
