@@ -234,6 +234,8 @@ collections:
   blogging:
     output: true
     permalink: /:collection/:path/
+    title: "Blogging tips"
+    description: "My summaries to blog in this site"
 
 #include: ["_pages", "_posts", "_blogging"]
 
