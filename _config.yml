@@ -257,7 +257,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-      defaults:
   # _blogging
   - scope:
       path: ""
