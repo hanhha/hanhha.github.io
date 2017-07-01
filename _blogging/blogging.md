@@ -1,9 +1,10 @@
 ---
 title: Blogging tips
 ---
-{% for article in site.blogging %}
+{% for article in site.blogging %} 
+
 <a href="{{ article.url | prepend: site.baseurl }}">
-        {{ article.title }}
+        {{ article.title }} 
 </a>
 
 {% endfor %}      
