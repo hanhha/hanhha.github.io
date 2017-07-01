@@ -231,7 +231,9 @@ compress_html:
     envs: development
 
 collections:
-  - blogging
+  - blogging:
+      output: true
+      permalink: /:collection/:path/
 
 include: ["_pages", "_posts", "_blogging"]
 
@@ -261,5 +263,7 @@ defaults:
       path: ""
       type: blogging
     values:
-      layout: page
+      layout: single
+      author_profile: false
+      share: true
 
