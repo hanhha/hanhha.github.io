@@ -233,13 +233,13 @@ compress_html:
 collections:
   - blogging
 
-include: ["_pages", "_posts"]
+include: ["_pages", "_posts", "_blogging"]
 
 # Defaults
 defaults:
   # _posts
   - scope:
-      path: "_posts"
+      path: ""
       type: posts
     values:
       layout: single
@@ -258,7 +258,7 @@ defaults:
       defaults:
   # _blogging
   - scope:
-      path: "_blogging"
+      path: ""
       type: blogging
     values:
       layout: page
