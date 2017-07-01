@@ -9,6 +9,4 @@ title: Blogging tips
         <h2>{{ issue.title }}</h2>
 </a>
 
-<p class="post-excerpt">{{ issue.excerpt | truncate: 160 }}</p>
-
 {% endfor %}      
