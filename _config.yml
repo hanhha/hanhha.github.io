@@ -230,10 +230,10 @@ compress_html:
   ignore:
     envs: development
 
-collections:
-  - blogging:
-      output: true
-      permalink: /:collection/:path/
+#collections:
+#  - blogging:
+#      output: true
+#      permalink: /:collection/:path/
 
 #include: ["_pages", "_posts", "_blogging"]
 
@@ -258,11 +258,11 @@ defaults:
       layout: single
       author_profile: true
   # _blogging
-  - scope:
-      path: ""
-      type: blogging
-    values:
-      layout: single
-      author_profile: false
-      share: true
+#  - scope:
+#      path: ""
+#      type: blogging
+#    values:
+#      layout: single
+#      author_profile: false
+#      share: true
 
