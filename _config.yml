@@ -252,3 +252,14 @@ defaults:
     values:
       layout: single
       author_profile: true
+      defaults:
+  # _blogging
+  - scope:
+      path: "_blogging"
+      type: blogging
+    values:
+      layout: page
+
+collections:
+  - blogging:
+      #output: true
