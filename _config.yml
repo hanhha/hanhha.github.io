@@ -230,6 +230,9 @@ compress_html:
   ignore:
     envs: development
 
+collections:
+  - blogging
+
 include: ["_pages", "_posts"]
 
 # Defaults
@@ -247,7 +250,7 @@ defaults:
       related: true
   # _pages
   - scope:
-      path: "_pages"
+      path: ""
       type: pages
     values:
       layout: single
@@ -260,6 +263,3 @@ defaults:
     values:
       layout: page
 
-collections:
-  - blogging:
-      #output: true
