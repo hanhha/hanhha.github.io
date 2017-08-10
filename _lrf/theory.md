@@ -28,7 +28,7 @@ $$l_{1} = f \times \frac{D}{k \times p_{1}}$$
 
 $$l_{2} = f \times \frac{D}{k \times p_{2}}$$
 
-Subtracting $l_{1}$ from $l_{2}$ (let's call the result $\Delta l$) and doing some transformation, then we will have:
+Subtracting $l_{1}$ from $l_{2}$ and calling the result $\Delta l$, then doing some transformation, we will have:
 
 $$k = \frac{f \times D \times (p_{1}-p_{2})}{\Delta l \times p_{1} \times p_{2}}$$
 
