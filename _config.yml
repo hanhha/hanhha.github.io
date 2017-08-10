@@ -145,7 +145,7 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 
 # Conversion
-markdown: kramdown
+markdown: kramdown 
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
@@ -178,7 +178,7 @@ timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
@@ -236,6 +236,11 @@ collections:
     permalink: /:collection/:path/
     title: "Blogging tips"
     description: "My summaries to blog in this site"
+  lrf:
+    output: true
+    permalink: /:collection/:path/
+    title: "DIY Laser range finder"
+    description: "A DIY laser range finder"
 
 #include: ["_pages", "_posts", "_blogging"]
 
@@ -263,6 +268,14 @@ defaults:
   - scope:
       path: ""
       type: blogging
+    values:
+      layout: single
+      author_profile: true
+      share: true
+  # _lrf
+  - scope:
+      path: ""
+      type: lrf
     values:
       layout: single
       author_profile: true
