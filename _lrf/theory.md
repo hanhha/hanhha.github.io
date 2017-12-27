@@ -12,7 +12,7 @@ Alright, recall to high school mathematic, triangles OEC and BOA are similar so 
 
 $$l = f \times \frac{D}{d}$$
 
-We have already known $D$ which is distance between laser source and camera. $f$ is also known because it is the focal length of camera and it should show off somewhere in device manual or case. We can get $d$ by measuring directly on the captured image.
+We have already known $D$ which is distance between laser source and camera. We can get $d$ by measuring directly on the captured image.
 
 One issue here, by measuring distance on the image, we get that value in pixels. Let describe $d$ as:
 
@@ -21,17 +21,8 @@ $$d = k \times p$$
 In which $p$ is the distance in pixel measured on captured image. The first equation will become:
 
 $$l = f \times \frac{D}{k \times p}$$
+or
+$$l = \frac{f}{k} \times \frac{D}{p}$$
 
-Alright, all we have to do now is figure the value of $k$. If we place obstacle at predefined distances called $l_{1}$ and $l_{2}$, we will have following equations:
-
-$$l_{1} = f \times \frac{D}{k \times p_{1}}$$
-
-$$l_{2} = f \times \frac{D}{k \times p_{2}}$$
-
-Subtracting $l_{1}$ from $l_{2}$ and calling the result $\Delta l$, then doing some transformation, we will have:
-
-$$k = \frac{f \times D \times (p_{1}-p_{2})}{\Delta l \times p_{1} \times p_{2}}$$
-
-Above process needs to measure 2 predefined distances, but its advantage is that we don't have to care about internal distance $L$ inside the camera. Although $L$ is a fixed value, it would be difficult to measure.
-
-That's all for mathematic. Have fun.
+$f$ is also known because it is the focal length of camera and it should show off somewhere in device manual or case. However, this value is often variable depending on the lens system.
+But its value should not change during system operation and so does value of $k$. A straightforward method to find out the value of $\frac{f}{k}$ is measuring $p$ with predefined $l$, then run a linear regression algorithm to find approximative value.  
