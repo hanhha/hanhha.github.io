@@ -281,7 +281,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
+      share: false 
   # _lrf
   - scope:
       path: ""
@@ -290,6 +290,8 @@ defaults:
       layout: single
       author_profile: true
       share: true
+      read_time: true
+      comments: true
   # _crypto_trading
   - scope:
       path: ""
@@ -298,6 +300,8 @@ defaults:
       layout: single
       author_profile: true
       share: true
+      read_time: true
+      comments: true
   # _snippet
   - scope:
       path: ""
@@ -306,3 +310,5 @@ defaults:
       layout: single
       author_profile: true
       share: true
+      read_time: true
+      comments: true
