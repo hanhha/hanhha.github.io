@@ -246,6 +246,11 @@ collections:
     permalink: /:collection/:path/
     title: "Crypto trading"
     description: "Steps to an auto trading system"
+  snippet:
+    output: true
+    permalink: /:collection/:path/
+    title: "Code snippets"
+    description: "Collection of my code snippets"
 
 #include: ["_pages", "_posts", "_blogging"]
 
@@ -293,4 +298,11 @@ defaults:
       layout: single
       author_profile: true
       share: true
-
+  # _snippet
+  - scope:
+      path: ""
+      type: snippet
+    values:
+      layout: single
+      author_profile: true
+      share: true
