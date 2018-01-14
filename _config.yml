@@ -235,12 +235,17 @@ collections:
     output: true
     permalink: /:collection/:path/
     title: "Blogging tips"
-    description: "My summaries to blog in this site"
+    description: "My summaries to blog on this site"
   lrf:
     output: true
     permalink: /:collection/:path/
     title: "DIY Laser range finder"
     description: "A DIY laser range finder"
+  crypto_trading:
+    output: true
+    permalink: /:collection/:path/
+    title: "Crypto trading"
+    description: "Steps to an auto trading system"
 
 #include: ["_pages", "_posts", "_blogging"]
 
@@ -276,6 +281,14 @@ defaults:
   - scope:
       path: ""
       type: lrf
+    values:
+      layout: single
+      author_profile: true
+      share: true
+  # _crypto_trading
+  - scope:
+      path: ""
+      type: crypto_trading
     values:
       layout: single
       author_profile: true
