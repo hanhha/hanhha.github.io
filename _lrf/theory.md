@@ -24,5 +24,12 @@ $$l = f \times \frac{D}{k \times p}$$
 or
 $$l = \frac{f}{k} \times \frac{D}{p}$$
 
-$f$ is also known because it is the focal length of camera and it should show off somewhere in device manual or case. However, this value is often variable depending on the lens system.
-But its value should not change during system operation and so does value of $k$. A straightforward method to find out the value of $\frac{f}{k}$ is measuring $p$ with predefined $l$, then run a linear regression algorithm to find approximative value.  
+$f$ is the focal length of camera and if we use a fixed focus camera, it should be a fixed value. In the case of auto focus, that value is variable.
+
+But let's forget about camera parameters and simply the problem by treating as a simpler equation:
+
+$$ l = \frac{A}{p}$$
+
+A pair of experimental {$l, p$} are all we need to calculate $A$ and then voila, we make it.
+
+Well, that's all we need in **ideal conditions**. However, camera attributes may affect much to the measurement. But that is another story.
