@@ -3,6 +3,7 @@ title: "Mathematic"
 excerpt: "Base mathematical knowledge about laser range finder"
 tags: [math,"laser range finder","lidar","diy"]
 use_math: true
+published: false
 ---
 The theory behind this laser range finder is very simple. Let consider the system in below figure.
 ![model]({{ site.baseurl }}/lrf/images/math.png "Model of system")
