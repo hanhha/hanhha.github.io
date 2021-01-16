@@ -10,7 +10,7 @@ locale                   : "en"
 title                    : "Ilumi"
 title_separator          : "-"
 name                     : "Hanh Ha"
-description              : "Nothing helps deepen knowledge as effectively as sharing it"
+description              : ""
 url                      : "https://hanhha.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -79,7 +79,7 @@ analytics:
 author:
   name             : "Hanh Ha"
   avatar           : "https://avatars0.githubusercontent.com/u/2361076?v=3&u=b168ef8c924bb37a5ed474bf41a11be25295bc47&s=400"
-  bio              : "I am a learner."
+  bio              : "An Engineer."
   location         : "Ho Chi Minh, Vietnam"
   email            :
   uri              :
