@@ -1,6 +1,6 @@
 ---
 title: Becoming a writer
-published: true
+published: false
 ---
 
 Einstein said: _"If you can't **explain it simply**, you don't **understand it well enough**"_. He was also an excellent writer, I think (well, his explanation about Theory of Relativity is quite simple, I always have that feeling whenever I read it, although till now I can't understand it completely :D ).  
